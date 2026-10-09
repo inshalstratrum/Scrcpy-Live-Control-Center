@@ -1,0 +1,35 @@
+# Vendor binaries and dynamic link libraries (download via setup_scrcpy.ps1)
+*.exe
+*.dll
+scrcpy-server
+scrcpy-win64-*
+*.zip
+*.7z
+*.tar.gz
+
+# Local backups and user recordings
+backup_v*/
+recordings/
+temp_*/
+
+# Runtime logs & debug
+*.log
+scrcpy_session.log
+control_center.log
+startup_debug.log
+diag_vbs.vbs
+
+# Python cache & environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
